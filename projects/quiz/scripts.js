@@ -1,10 +1,8 @@
 const form = document.querySelector('.quiz-submit');
 const result = document.querySelector('.result');
 const correctAnswers = ['A', 'B', 'A', 'B'];
-
-// correctAnswers.forEach((anwser, index) => {
-//     console.log(anwser, index);
-// })
+//calculate the score
+const score = result.querySelector('span')
 
 form.addEventListener('submit', e => {
     e.preventDefault()
@@ -25,12 +23,11 @@ form.addEventListener('submit', e => {
         }
     })
 
-
     // display result
     result.style.display = 'block';
 
-    //calc the score
-    score = result.querySelector('span')
+    //calculate the score
+    const score = result.querySelector('span')
 
     // scroll page top,left corner
     scrollTo(0,0)
@@ -48,5 +45,4 @@ form.addEventListener('submit', e => {
     } else {
         score.textContent = `${scoreCorrectAnswers}%`
     }
-
 })
