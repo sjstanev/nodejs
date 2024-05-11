@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <h1>Simple Quiz</h1>
+        <hr class="hr-header">
+    </div>
+
+
+    <!-- main container div -->
+    <div class="main-container">
+
+        <!-- result -->
+        <div class="result" style="display: none;">
+            <p>Final score <span class=score> 0% </span> of quiz!</p>
+        </div>
+
+        <!-- Intro -->
+        <div class="introduction">
+            <h2>This quiz is testing your HTML, CSS and JS knowledge</h2>
+        </div>
+
+        <!-- quiz form -->
+        <div class="form-quiz">
+
+            <form class="quiz-submit">
+                <!-- questions -->
+                <div class="questions">
+                    <ol>
+                        <li class="question">What is the Box model in CSS? </li>
+                        <div class="answer">
+                            <input type="radio" value="A" name="q1" checked>
+                            <label for="">Answer "A"</label>
+                        </div>
+                        <div class="answer">
+                            <input type="radio" value="B" name="q1">
+                            <label for="">Answer "B"</label>
+                        </div>
+                        <li class="question"> What are the advantages of using CSS? </li>
+                        <div class="answer">
+                            <input type="radio" value="A" name="q2" checked>
+                            <label for="">Answer "A"</label>
+                        </div>
+                        <div class="answer">
+                            <input type="radio" value="B" name="q2">
+                            <label for="">Answer "B"</label>
+                        </div>
+                        <li class="question">What are the limitations of CSS?</li>
+                        <div class="answer">
+                            <input type="radio" value="A" name="q3" checked>
+                            <label for="">Answer "A"</label>
+                        </div>
+                        <div class="answer">
+                            <input type="radio" value="B" name="q3">
+                            <label for="">Answer "B"</label>
+                        </div>
+                        <li class="question">How to include CSS in the webpage?</li>
+                        <div class="answer">
+                            <input type="radio" value="A" name="q4" checked>
+                            <label for="">Answer "A"</label>
+                        </div>
+                        <div class="answer">
+                            <input type="radio" value="B" name="q4">
+                            <label for="">Answer "B"</label>
+                        </div>
+                    </ol>
+
+                </div>
+
+                <!-- some_other_content -->
+                <div class="some_other_content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem maxime quo ipsam suscipit
+                        numquam eveniet excepturi id, assumenda voluptatem exercitationem, quam culpa dignissimos
+                        placeat. Rerum odit beatae aliquam voluptas. Fugit.</p>
+                </div>
+                <!-- buttons -->
+                <div class="buttons">
+                    <div class="btn">
+                        <!-- <button type="submit" class="submit_btn" name="submit">Submit</button> -->
+                        <input type="submit" class="submit_btn">
+                    </div>
+                    <div class="btn">
+                        <input type="reset" class="submit_btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- footer -->
+        <hr>
+        <div class="footer">
+            <p> &copy; 2013-2024 - Vtehcnology LTD - All Rights Reserved. 94851</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

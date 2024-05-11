@@ -1,0 +1,28 @@
+{
+  "name": "servers_catalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjstanev/servers_catalog.git"
+  },
+  "keywords": [],
+  "author": "Stanimir Stanev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjstanev/servers_catalog/issues"
+  },
+  "homepage": "https://github.com/sjstanev/servers_catalog#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

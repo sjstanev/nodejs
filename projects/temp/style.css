@@ -1,0 +1,11 @@
+body{
+    background:lightgrey;
+}
+
+div.container{
+    margin: 10px auto;
+    padding: 20px;
+    width: 800px;
+    background: darkgray;
+    border: 1px dashed burlywood;
+}
